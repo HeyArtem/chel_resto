@@ -124,6 +124,7 @@ def collect_data_cafe(list_link, *args):
             # Количество просмотров НЕ СМОГ!
             card_views = soup.find('i', class_='icon-view').next_element.text
             print(card_views)
+            # test 
         
         except Exception as ex:
             card_views = None
